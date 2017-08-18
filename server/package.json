@@ -1,0 +1,24 @@
+{
+  "name": "socket-io-typescript-example",
+  "version": "0.0.1",
+  "description": "Read from serial and push to websockets in Typescript",
+  "main": "index.js",
+  "author": "Christos Koutsiaris",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/express": "~4.0.33",
+    "@types/serialport": "^4.0.9",
+    "@types/socket.io": "^1.4.27",
+    "express": "~4.10.0",
+    "serialport": "^4.0.7",
+    "socket.io": "~1.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.2",
+    "typescript": "^2.0.9"
+  }
+}
